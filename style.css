@@ -1,0 +1,153 @@
+
+.text-center {
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.flex-item{
+  width:500px;
+  height: 400px;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:large;
+  font-weight: lighter;
+  flex-wrap: wrap;
+  
+}
+
+.image{
+  width: 200px;
+  height: 200px;
+}
+.flex-it{
+  width: 375px;
+  height: 500px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.image1{
+  width: 345px;
+  height: 300px;
+}
+.image2{
+  width: 100px;
+  height: 100px;
+  margin: 0%;
+  padding: 0%;
+}
+.flex-it-1{
+  padding-left: 350px;
+  width: 800px;
+  height: 800px;
+  text-align:center;
+  flex-wrap: wrap;
+}
+.image3{
+  width: 700px;
+  height: 500px;
+}
+#slider{
+  
+  overflow: hidden;
+} 
+#slider figure{
+  
+  position: relative;
+  width: 3200px;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+
+}
+#slider figure img{
+ 
+  width: 800px;
+  float: left;
+}
+@keyframes slider {
+  0%{
+    left: 0;
+  }
+  20%{
+    left: 0;
+  }
+  25%{
+    left: -800px;
+  }
+  45%{
+    left: -800px;
+  }
+  50%{
+    left: -1600px;
+  }
+  70%{
+    left: -1600px;
+  }
+  75%{
+    left: -2400px;
+  }
+  95%{
+    left: -2400px;
+  }
+  100%{
+    left: -3200px;
+  }
+
+  
+}
+ul{
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 36px;
+  line-height: 36px;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  
+}
+li{
+  float: left;
+  border-right: 1px solid aqua;
+}
+a{
+  display: block;
+  padding: 0 160px;
+  color: aqua;
+  text-decoration: none;
+}
+a:hover{
+  background-color: rgb(4, 87, 87);
+}
+.active a{
+  background-color: rgb(4, 87, 87);
+}
+.content-wrap{
+  width: 69%;
+}
+.text-wrap{
+  width: 100%;
+  position: relative;
+  margin-top: -65%;
+  margin-left: 40%;
+  font-size: 300px;
+}
+.text-wrap h1{
+  text-align: center;
+  color: black;
+  font-size: 5000px;
+  font-family:'Courier New', Courier, monospace;
+}
+.img{
+  width: 1500px;
+  height: 800px;
+}
+body{
+  background-size: cover;
+  background-attachment: fixed;
+}
